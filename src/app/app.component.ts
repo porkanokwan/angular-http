@@ -43,7 +43,7 @@ export class AppComponent implements OnInit, OnDestroy {
   onCreatePost(postData: Post) {
     // Send Http request
     // console.log(postData); // {"title": "test","content": "test some content"}
-    // การเติม /posts.json ต่อท้าย url เป็นสิ่งที่ firebase require
+    // การเติม .json ต่อท้าย url เป็นสิ่งที่ firebase require
     // this.http
     //   .post<{ name: string }>(
     //     'https://angular-http-44c47-default-rtdb.firebaseio.com/posts.json',
